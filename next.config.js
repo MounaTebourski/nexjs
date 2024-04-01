@@ -2,17 +2,21 @@
 
 const createNextIntlPlugin = require("next-intl/plugin");
 
-const withNextIntl = createNextIntlPlugin();
+try {
+	const withNextIntl = createNextIntlPlugin();
 
-const nextConfig = {
-	images: {
-		remotePatterns: [
-			{
-				protocol: "https",
-				hostname: "images.pexels.com",
-			},
-		],
-	},
-};
+	const nextConfig = {
+		images: {
+			remotePatterns: [
+				{
+					protocol: "https",
+					hostname: "images.pexels.com",
+				},
+			],
+		},
+	};
 
-module.exports = withNextIntl(nextConfig);
+	module.exports = withNextIntl(nextConfig);
+} catch (error) {
+	throw new Error(error);
+}
