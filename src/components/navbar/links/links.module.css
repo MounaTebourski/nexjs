@@ -1,0 +1,47 @@
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+	font-size: large;
+}
+
+.active {
+	background-color: var(--bg);
+	color: var(--text);
+	padding: 8px 20px;
+	border-radius: 20px;
+}
+
+.menuButton,
+.mobileLinks {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.links {
+		display: none;
+	}
+
+	.menuButton {
+		display: block;
+		cursor: pointer;
+		margin: 10px;
+	}
+
+	.mobileLinks {
+		position: absolute;
+		top: 60px;
+		right: 0;
+		width: 45%;
+		min-height: calc(100vh - 80px);
+		background-color: var(--bgNavbar);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: large;
+		gap: 30px;
+		z-index: 999;
+	}
+}

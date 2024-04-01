@@ -1,0 +1,75 @@
+@tailwind base;
+
+:root {
+	--bg: #fff;
+	--bgSoft: #eaeaea;
+	--text: #000;
+	--bgNavbar: #3901be;
+	--textSoft: #777777;
+	--btn: #8a54f7;
+	--btnOver: #641cf5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: var(--text);
+	background-color: var(--bg);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.dark {
+	--bg: #0f172a;
+	--bgSoft: #1f273a;
+	--text: #ddd;
+	--bgNavbar: #936af4;
+	--textSoft: #bbbaba;
+	--btn: #8a54f7;
+	--btnOver: #641cf5;
+	--bgCard: #25314d;
+	--textCard: #ddd;
+}
+
+.light {
+	--bg: #fff;
+	--bgSoft: #eaeaea;
+	--text: #000;
+	--bgNavbar: #3901be;
+	--textSoft: #777777;
+	--btn: #8a54f7;
+	--btnOver: #641cf5;
+	--bgCard: #eddbfc;
+	--textCard: #000;
+}
+
+.container {
+	min-width: 100vw;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: var(--text);
+	background-color: var(--bg);
+}
+
+.content {
+	flex: 1;
+}
+
+.footer {
+	background-color: var(--bgSoft);
+	color: var(--textSoft);
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}

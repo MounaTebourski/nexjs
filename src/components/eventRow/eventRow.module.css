@@ -1,0 +1,45 @@
+.containerEvent {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 5px;
+	border: 1px solid #a7a6a6;
+}
+
+.iconContainer {
+	display: flex;
+	gap: 10px;
+}
+
+.title {
+	width: 40%;
+}
+
+.description {
+	width: 250px;
+}
+
+.date {
+	width: 10%;
+}
+.img {
+	width: 20%;
+}
+
+.place {
+	width: 30%;
+}
+
+.button {
+	padding: 20px;
+	cursor: pointer;
+	background-color: var(--btn);
+	border: none;
+	border-radius: 5px;
+	color: var(--bg);
+	font-weight: bold;
+}
+
+.buttonContainer {
+	text-align: right;
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"title": "GREEN DAY THE SMASHING PUMPKINS",
+		"description": "It has been over six years since Green Day last came around to play a show in Montreal",
+		"date": "August 3",
+		"place": "Saturday, August 3 at Parc Jean-Drapeau, Montreal",
+		"src": "green.jpg",
+		"alt": "green day"
+	},
+	{
+		"id": 2,
+		"title": "NOAH KAHAN - MELANIE MARTINEZ",
+		"description": "Green Day, SZA, and Noah Kahan will serve as headliners at the 2024 Osheaga Festival, returning to Montreal this August.",
+		"date": "August 4",
+		"place": "Sunday, August 4 at Parc Jean-Drapeau, Montreal",
+		"src": "osheaga.jpg",
+		"alt": "Concert de jazz en plein air"
+	},
+	{
+		"id": 3,
+		"title": "Festival de musique électronique",
+		"description": "Un festival de musique électronique avec des DJ internationaux et une ambiance électrisante.",
+		"date": "August 3",
+		"place": "Saturday, August 3 at Parc Jean-Drapeau, Montreal",
+		"src": "festival-electro.jpg",
+		"alt": "Festival de musique électronique"
+	},
+	{
+		"id": 4,
+		"title": "Concert de rock alternatif",
+		"description": "Un concert de rock alternatif avec des groupes locaux et une énergie débordante.",
+		"date": "August 4",
+		"place": "Sunday, August 4 at Parc Jean-Drapeau, Montreal",
+		"src": "concert-rock.jpg",
+		"alt": "Concert de rock alternatif"
+	}
+]

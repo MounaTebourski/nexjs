@@ -1,0 +1,46 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 10px;
+	width: 80%;
+}
+
+.container input,
+.container textarea,
+.container select {
+	padding: 20px;
+	background-color: var(--bgSoft);
+	border: none;
+	border-radius: 5px;
+	color: var(--textColor);
+}
+
+.container button {
+	padding: 20px;
+	cursor: pointer;
+	background-color: var(--btn);
+	border: none;
+	border-radius: 5px;
+	color: var(--textColor);
+	font-weight: bold;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.error {
+	font-size: 1rem;
+	font-weight: 500;
+	color: red;
+	padding-left: 20px;
+}
+
+.confirmation {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: rgb(4, 133, 12);
+	padding: 20px;
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"title": "GREEN DAY",
+		"description": "Green Day, SZA, and Noah Kahan will serve as headliners at the 2024 Osheaga Festival, returning to Montreal this August.",
+		"date": "2024-05-15",
+		"place": "Parc Central",
+		"src": "greenday.jpg",
+		"alt": "Concert de jazz en plein air"
+	},
+	{
+		"id": 2,
+		"title": "NOAH KAHAN",
+		"description": "Green Day, SZA, and Noah Kahan will serve as headliners at the 2024 Osheaga Festival, returning to Montreal this August.",
+		"date": "August 4",
+		"place": "Montreal",
+		"src": "noa.jpg",
+		"alt": "noa"
+	},
+	{
+		"id": 3,
+		"title": "SZA",
+		"description": "Green Day, SZA, and Noah Kahan will serve as headliners at the 2024 Osheaga Festival, returning to Montreal this August.",
+		"date": "August 4",
+		"place": "Montreal",
+		"src": "sza.jpg",
+		"alt": "Concert de rock alternatif"
+	},
+	{
+		"id": 4,
+		"title": "HOZIER",
+		"description": "Hozier, Reneé Rapp, Smashing Pumpkins, Brittany Howard, Justice and many more booked for Montreal fest this August",
+		"date": "August 5",
+		"place": "Montreal",
+		"src": "hozier.jpg",
+		"alt": "Concert de rock alternatif"
+	}
+]
